@@ -48,8 +48,6 @@ To stop using a script remove the filter and make the url `unset`.
 
 *For the sake of security it's recommended to use a permalink when using uBlock Origin (permalinks do not auto update).*
 
-*The scripts __may randomly stop being applied by uBlock Origin__ for unknown reasons ([#200](https://github.com/pixeltris/TwitchAdSolutions/issues/200)). It's recommended to use the userscript versions instead.*
-
 ## Issues with the scripts
 
 If the script doesn't work or you're experiencing freezing / buffering issues see [issues.md](issues.md)
