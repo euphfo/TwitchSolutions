@@ -29,10 +29,10 @@ Alternatively:
 
 **There are better / easier to use methods in the above recommendations.**
 
-- vaft - [userscript](https://github.com/pixeltris/TwitchAdSolutions/raw/master/vaft/vaft.user.js) / [ublock](https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/vaft/vaft-ublock-origin.js) / [ublock (permalink)](https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/f8f86706daf90daa534b26bce5b2f01238667d5f/vaft/vaft-ublock-origin.js)
+- vaft - / [ublock](https://github.com/euphfo/TwitchSolutions/blob/master/vaft/vaft-ublock-origin.js) / [ublock (permalink)](https://github.com/euphfo/TwitchSolutions/blob/c51ef2fe8f667f9dc9216eb550924cf0d732ce27/vaft/vaft-ublock-origin.js)
   - Attempts to get a clean stream as fast as it can
   - If it fails to get a clean stream it removes ad segments (no playback until ad-free stream is found)
-- video-swap-new - [userscript](https://github.com/pixeltris/TwitchAdSolutions/raw/master/video-swap-new/video-swap-new.user.js) / [ublock](https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/video-swap-new/video-swap-new-ublock-origin.js) / [ublock (permalink)](https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/f8f86706daf90daa534b26bce5b2f01238667d5f/video-swap-new/video-swap-new-ublock-origin.js)
+- video-swap-new - / [ublock](https://github.com/euphfo/TwitchSolutions/blob/master/video-swap-new/video-swap-new-ublock-origin.js) / [ublock (permalink)](https://github.com/euphfo/TwitchSolutions/blob/c51ef2fe8f667f9dc9216eb550924cf0d732ce27/video-swap-new/video-swap-new-ublock-origin.js)
   - Attempts to get a clean stream
   - If it fails to get a clean stream it removes ad segments (no playback until ad-free stream is found)
   - Not recommended, `vaft` is a better script
@@ -49,18 +49,6 @@ To stop using a script remove the filter and make the url `unset`.
 *For the sake of security it's recommended to use a permalink when using uBlock Origin (permalinks do not auto update).*
 
 *The scripts __may randomly stop being applied by uBlock Origin__ for unknown reasons ([#200](https://github.com/pixeltris/TwitchAdSolutions/issues/200)). It's recommended to use the userscript versions instead.*
-
-## Applying a script (userscript)
-
-Viewing one of the userscript files should prompt the given script to be added when you have a userscript manager installed.
-
-Userscript managers:
-
-- https://violentmonkey.github.io/
-- https://www.tampermonkey.net/
-- https://apps.apple.com/us/app/userscripts/id1463298887
-
-*Greasemonkey doesn't work with the scripts.*
 
 ## Issues with the scripts
 
